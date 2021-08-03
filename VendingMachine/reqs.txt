@@ -1,0 +1,48 @@
+Features
+CLEAR F.1 - On startup...
+CLEAR F.1.1 - Display all items and their respective prices
+
+CLEAR F.2 - Within a given session
+CLEAR F.2.1 - Provide an option to exit the whole program
+CLEAR F.2.2 - Allow the user to input money into the machine,
+              updating the amount of funds in the machine
+
+CLEAR F.3 - Prevent the user from
+CLEAR F.3.1 - Selecting an Item before the user has provided any money in the 
+              Vending Machine
+CLEAR F.3.2 - Vending multiple items simultaneously
+CLEAR F.3.3 - Selecting an item whose price exceeds the amount of
+              money that the user put into the machine. In such a scenario
+CLEAR F.3.3.1 - Display an error message indicating insufficient funds
+CLEAR F.3.3.2 - Redisplay the amount of funds in the Vending Machine
+
+CLEAR F.4 - Vending Machine Items must be stored in a file
+CLEAR F.4.1 - Upon shutdown, the file must be consistent with the inventory
+              in the Vending Machine
+
+CLEAR F.5 - Vending Machine Items must have
+CLEAR F.5.1 - The Item's name
+CLEAR F.5.2 - The Item's cost
+CLEAR F.5.3 - The amount of the Item available in the Vending Machine
+
+CLEAR F.6 - Upon a valid purchase
+CLEAR F.6.1 - Display change to the user in terms of the amount of quarter, dimes,
+              nickles, and pennies
+CLEAR F.6.2 - Update the inventory to be consistent with the aftermath of a purchase
+CLEAR F.6.3 - Any items that are depleted from the inventory should not be selectable
+
+Guidelines
+G.1 - Unit Tests must be provided for DAO and Service Layer components
+
+CLEAR G.2 - All monetary Calculations should be performed with BigDecimal as much as 
+            possible
+
+CLEAR G.3 - Provide application-specific exceptions. At minimum, these should include
+CLEAR G.3.1 - An InsufficientFundsException if a user attempts to buy an item they
+              haven't provided enough funds for
+CLEAR G.3.2 - A NoItemInventoryException if a user attempts to buy an item that does
+              not exist in the inventory
+
+CLEAR G.4 - Use enums to represent the values of coins
+
+CLEAR G.5 - Include an AuditDao to record events

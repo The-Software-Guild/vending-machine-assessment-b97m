@@ -1,0 +1,8 @@
+Coca-Cola::0.95::10
+Snickers::1.25::13
+Gatorade::4.19::9
+Aquafina::1.99::12
+Diet Pepsi::5.19::9
+M&Ms::2.99::20
+Reese's Peanut Butter Cups::3.99::12
+Vitamin Water::0.25::0
