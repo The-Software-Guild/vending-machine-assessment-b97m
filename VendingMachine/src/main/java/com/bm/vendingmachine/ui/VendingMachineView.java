@@ -1,6 +1,7 @@
 package com.bm.vendingmachine.ui;
 
 import com.bm.vendingmachine.dto.VendingMachineItem;
+import com.bm.vendingmachine.service.Coin;
 import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.util.List;
@@ -84,16 +85,16 @@ public class VendingMachineView {
      * @param change 
      */
     public void displayChange(BigDecimal change) {
-        BigInteger cents = change.multiply(new BigDecimal("100")).toBigInteger();
+        BigInteger pennies = change.multiply(new BigDecimal("100")).toBigInteger();
         
-        BigInteger quarters = cents.divide(new BigInteger("25"));
-        cents = cents.remainder(new BigInteger("25"));
+        BigInteger quarters = pennies.divide(Coin.QUARTER.getCentValue());
+        pennies = pennies.remainder(Coin.QUARTER.getCentValue());
         
-        BigInteger dimes = cents.divide(new BigInteger("10"));
-        cents = cents.remainder(new BigInteger("10"));
+        BigInteger dimes = pennies.divide(Coin.DIME.getCentValue());
+        pennies = pennies.remainder(Coin.DIME.getCentValue());
         
-        BigInteger nickels = cents.divide(new BigInteger("5"));
-        cents = cents.remainder(new BigInteger("5"));
+        BigInteger nickels = pennies.divide(Coin.NICKEL.getCentValue());
+        pennies = pennies.remainder(Coin.NICKEL.getCentValue());
         
         userIo.displayAroundContents(
             "Change returned",
@@ -101,7 +102,7 @@ public class VendingMachineView {
                 "Quarters: " + quarters.toString(),
                 "Dimes: " + dimes.toString(),
                 "Nickels: " + nickels.toString(),
-                "Pennies: " + cents.toString()
+                "Pennies: " + pennies.toString()
             }
         );
     }

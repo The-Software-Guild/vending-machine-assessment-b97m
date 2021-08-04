@@ -79,7 +79,7 @@ public class VendingMachineController {
                     active = false;
                     break;
                 default:
-                    view.displayLine("UNKNOWN COMMAND");
+                    view.displayErrorLine("UNKNOWN COMMAND");
                     break;
             }
         }
@@ -172,7 +172,8 @@ public class VendingMachineController {
             String itemName = view.stringSupplier(
                 "What is the name of the item you want to purchase?", 
                 str -> true, 
-            "").get();
+                ""
+            ).get();
             
             try {
                 BigDecimal change = service.transactItem(itemName);

@@ -78,7 +78,7 @@ public class VendingMachineService {
     public void addCoins(Coin coin, BigInteger quantity) {
         auditDao.appendRecord("Added " + quantity + " " + coin + "(s)");
         fundsAvailable = fundsAvailable.add(
-            coin.getValue().multiply(new BigDecimal(quantity.toString()))
+            coin.getValue().multiply(new BigDecimal(quantity))
         );
     }
     

@@ -1,6 +1,7 @@
 package com.bm.vendingmachine.service;
 
 import java.math.BigDecimal;
+import java.math.BigInteger;
 
 /**
  * An enum for representing the values of various U.S. coins
@@ -25,6 +26,13 @@ public enum Coin {
      */
     public BigDecimal getValue() {
         return value;
+    }
+    
+    /**
+     * @return The value of this coin in cents
+     */
+    public BigInteger getCentValue() {
+        return value.multiply(new BigDecimal("100")).toBigInteger();
     }
     
     /**

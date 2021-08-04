@@ -1,17 +1,60 @@
-2021-08-03T09:47:47.981429500: Loaded vending items into memory
-2021-08-03T09:47:47.997386: Acquiring list of all items
-2021-08-03T09:47:48.010353200: Vending machine funds queried
-2021-08-03T10:13:36.009757500: Loaded vending items into memory
-2021-08-03T10:13:36.027677900: Acquiring list of all items
-2021-08-03T10:13:36.040644200: Vending machine funds queried
-2021-08-03T10:13:39.225631300: Vending machine funds queried
-2021-08-03T10:13:40.533949900: Vending machine funds queried
-2021-08-03T10:13:41.424832900: Vending machine funds queried
-2021-08-03T10:13:46.525163500: Added 1 QUARTER(s)
-2021-08-03T10:13:46.526158800: Vending machine funds queried
-2021-08-03T10:13:48.472158400: Vending machine funds queried
-2021-08-03T10:13:51.623573700: Vending machine funds queried
-2021-08-03T10:13:55.420705700: Transaction attempted for Vitamin Water
-2021-08-03T10:13:55.420705700: Transaction failed - no such item
-2021-08-03T10:13:57.164582900: Vending machine funds queried
-2021-08-03T10:14:24.640577700: Saved vending items to external source(s)
+2021-08-04T07:17:56.529619800: Loaded vending items into memory
+2021-08-04T07:17:56.546542700: Acquiring list of all items
+2021-08-04T07:17:56.561509700: Vending machine funds queried
+2021-08-04T07:18:19.038564800: Vending machine funds queried
+2021-08-04T07:18:20.668674400: Vending machine funds queried
+2021-08-04T07:18:21.229768400: Vending machine funds queried
+2021-08-04T07:18:29.607465: Added 21 QUARTER(s)
+2021-08-04T07:18:29.609459200: Vending machine funds queried
+2021-08-04T07:18:34.717519600: Vending machine funds queried
+2021-08-04T07:18:36.350541200: Vending machine funds queried
+2021-08-04T07:20:17.560919: Transaction attempted for 
+2021-08-04T07:20:17.560919: Transaction failed - no such item
+2021-08-04T07:20:18.541405800: Vending machine funds queried
+2021-08-04T07:20:19.302650: Vending machine funds queried
+2021-08-04T07:20:27.373211900: Transaction attempted for Diet Pepsi
+2021-08-04T07:20:27.377168700: Transaction successful, returned $0.06 in change
+2021-08-04T07:20:31.414615300: Vending machine funds queried
+2021-08-04T07:26:17.854076700: Saved vending items to external source(s)
+2021-08-04T07:57:03.758398400: Loaded vending items into memory
+2021-08-04T07:57:03.789326700: Acquiring list of all items
+2021-08-04T07:57:03.811258: Vending machine funds queried
+2021-08-04T07:57:22.870079300: Acquiring list of all items
+2021-08-04T07:57:24.500330700: Vending machine funds queried
+2021-08-04T07:57:32.974948800: Vending machine funds queried
+2021-08-04T07:57:36.348844900: Vending machine funds queried
+2021-08-04T07:57:39.534528200: Vending machine funds queried
+2021-08-04T07:57:56.399271500: Added 3 QUARTER(s)
+2021-08-04T07:57:56.400265200: Vending machine funds queried
+2021-08-04T07:58:03.884834100: Vending machine funds queried
+2021-08-04T07:58:05.624456800: Vending machine funds queried
+2021-08-04T07:58:10.944948: Transaction attempted for Coca-Cola
+2021-08-04T07:58:10.945946800: Transaction failed - not enough funds for item
+2021-08-04T07:58:18.987029600: Vending machine funds queried
+2021-08-04T07:58:20.727928700: Vending machine funds queried
+2021-08-04T07:58:24.869066900: Added 2 DIME(s)
+2021-08-04T07:58:24.872020: Vending machine funds queried
+2021-08-04T07:58:29.648926: Vending machine funds queried
+2021-08-04T07:58:32.053017900: Vending machine funds queried
+2021-08-04T07:58:36.734679800: Transaction attempted for Coca-Cola
+2021-08-04T07:58:36.738668800: Transaction successful, returned $0.00 in change
+2021-08-04T07:58:45.452030800: Vending machine funds queried
+2021-08-04T07:58:49.143098300: Acquiring list of all items
+2021-08-04T07:58:54.795716: Vending machine funds queried
+2021-08-04T07:59:03.919662200: Vending machine funds queried
+2021-08-04T07:59:07.075327600: Added 1 PENNY(s)
+2021-08-04T07:59:07.076330: Vending machine funds queried
+2021-08-04T07:59:10.444781200: Vending machine funds queried
+2021-08-04T07:59:12.618390200: Vending machine funds queried
+2021-08-04T07:59:15.884689900: Transaction attempted for Vitamin Water
+2021-08-04T07:59:15.884689900: Transaction failed - not enough funds for item
+2021-08-04T07:59:19.044636400: Vending machine funds queried
+2021-08-04T07:59:22.421453100: Vending machine funds queried
+2021-08-04T07:59:27.641230800: Added 1 QUARTER(s)
+2021-08-04T07:59:27.641230800: Vending machine funds queried
+2021-08-04T07:59:30.901946200: Vending machine funds queried
+2021-08-04T07:59:32.211027300: Vending machine funds queried
+2021-08-04T07:59:36.134072200: Transaction attempted for Vitamin Water
+2021-08-04T07:59:36.134072200: Transaction failed - no such item
+2021-08-04T07:59:39.067090: Vending machine funds queried
+2021-08-04T07:59:45.700961200: Saved vending items to external source(s)
